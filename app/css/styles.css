@@ -1,0 +1,51 @@
+/*************************
+BASE
+**************************/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 90%;
+  width: 100%;
+  margin: auto; }
+
+/*************************
+HEADER
+**************************/
+#header {
+  background-color: #081526;
+  color: white;
+  padding: 1rem 0; }
+  #header .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+/*************************
+NAV
+**************************/
+nav a {
+  color: #fff; }
+
+nav li {
+  display: inline-block;
+  margin-right: 1.5rem; }

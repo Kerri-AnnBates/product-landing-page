@@ -1,0 +1,14 @@
+/*************************
+HEADER
+**************************/
+#header {
+  background-color: $mainBlue;
+  color: white;
+  padding: 1rem 0;
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
