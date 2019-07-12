@@ -1,11 +1,22 @@
 /*************************
 GENERAL SECTIONS
 **************************/
+section {
+  padding: 3rem 0;
+}
 
 .card-container {
-
   .single-card {
     padding: 2rem;
-  }
 
+    &:nth-child(even) {
+      background-color: #f7f7f7;
+    }
+  }
+}
+
+.vid-container {
+  margin: 1.25rem auto;
+  max-width: 500px;
+  width: 100%;
 }

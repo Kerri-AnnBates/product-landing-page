@@ -9,11 +9,15 @@ BASE
 
 body {
   font-size: 16px;
-  font-family: 'Dosis', sans-serif; }
+  font-family: 'Dosis', sans-serif;
+  padding-top: 84px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   color: #333; }
+
+p {
+  line-height: 1.5rem; }
 
 a {
   text-decoration: none; }
@@ -37,10 +41,16 @@ a {
 HEADER
 **************************/
 #header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%; }
+
+.header__container {
   background-color: #081526;
   color: white;
   padding: 1rem 0; }
-  #header .header__logo_center {
+  .header__container .header__logo_center {
     margin: 0 auto 1rem;
     text-align: center; }
 
@@ -64,6 +74,7 @@ MAIN HERO SECTION
   background: url("../images/field-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 300px;
   position: relative; }
   .main-hero .main-hero-container {
@@ -80,8 +91,18 @@ MAIN HERO SECTION
 /*************************
 GENERAL SECTIONS
 **************************/
+section {
+  padding: 3rem 0; }
+
 .card-container .single-card {
   padding: 2rem; }
+  .card-container .single-card:nth-child(even) {
+    background-color: #f7f7f7; }
+
+.vid-container {
+  margin: 1.25rem auto;
+  max-width: 500px;
+  width: 100%; }
 
 /*************************
 FOOTER

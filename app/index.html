@@ -12,7 +12,8 @@
   </head>
   <body>
     <header id="header">
-      <div class="container header__container">
+      <div class="header__container">
+        <div class="container">
           <div id="header-img" class="header__logo header__logo_center">
             logo
           </div>
@@ -24,6 +25,7 @@
               <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
           </nav>
+        </div>
       </div>
     </header>
     <div class="main-hero">
@@ -55,7 +57,11 @@
     </main>
     <section id="video-sec">
       <div class="container">
-
+        <h2 class="headline__title headline__title-m headline__title-ctr">Videos</h2>
+        <p class="subtitle-m">Drill of the week:</p>
+        <div class="vid-container">
+          <iframe id="video" width="100%" height="315" src="https://www.youtube.com/embed/8C1P1AlKvkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </section>
     <section id="pricing">
@@ -63,9 +69,15 @@
         <h2 class="headline__title headline__title-m headline__title-ctr">Pricings</h2>
       </div>
     </section>
-    <section>
+    <section id="contact">
       <div class="container">
         <h2 class="headline__title headline__title-m headline__title-ctr">Contact</h2>
+        <div class="form-container">
+          <form class="" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <label for="email">Email: <input type="email" name="email" id="email" placeholder="Enter email address here..."></label>
+            <input type="submit" id="submit" value="Submit">
+          </form>
+        </div>
       </div>
     </section>
     <footer>

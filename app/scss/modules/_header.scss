@@ -2,6 +2,13 @@
 HEADER
 **************************/
 #header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header__container {
   background-color: $mainBlue;
   color: white;
   padding: 1rem 0;
