@@ -12,12 +12,9 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  color: #333;
 }
 
 a {
@@ -28,4 +25,21 @@ a {
   max-width: 90%;
   width: 100%;
   margin: auto;
+}
+
+.headline__title {
+  color: $headingsBlue;
+  padding: 10px 0;
+
+  &.headline__title-ctr {
+    text-align: center;
+  }
+
+  &.headline__title-l {
+    font-size: 3rem;
+  }
+
+  &.headline__title-m {
+    font-size: 2rem;
+  }
 }

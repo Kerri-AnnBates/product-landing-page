@@ -1,13 +1,21 @@
 /*************************
 NAV
 **************************/
-
 nav {
+  text-align: center;
+
   a {
-    color: #fff;
+    color: lighten($mainBlue, 84%);
   }
+
   li {
     display: inline-block;
     margin-right: 1.5rem;
+  }
+
+  .nav-link {
+    .nav-link_m {
+      font-size: 1.125rem;
+    }
   }
 }
