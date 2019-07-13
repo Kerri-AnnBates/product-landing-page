@@ -3,6 +3,10 @@ GENERAL SECTIONS
 **************************/
 section {
   padding: 3rem 0;
+
+  &.background_1 {
+    background: $sectionBackground;
+  }
 }
 
 .card-container {
@@ -19,4 +23,46 @@ section {
   margin: 1.25rem auto;
   max-width: 500px;
   width: 100%;
+}
+
+.price-container {
+  margin-top: 6rem;
+
+  .price-box {
+    background: #fff;
+    max-width: 300px;
+    min-height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 1rem 2rem;
+    position: relative;
+  }
+
+  .price {
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    background: $pirceBox;
+    border-radius: 50%;
+    padding: 4rem;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: -4rem;
+    transform: translateX(-50%);
+  }
+
+  .price-amt {
+    color: lighten($pirceBox, 45%);
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+  }
+
+  .price-desc {
+    text-align: justify;
+    margin-top: 5rem;
+  }
 }

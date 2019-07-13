@@ -8,7 +8,7 @@ BASE
 }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Dosis', sans-serif;
   padding-top: 84px;
 }
@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   line-height: 1.5rem;
+  font-size: 1.125rem;
 }
 
 a {
@@ -46,5 +47,18 @@ a {
 
   &.headline__title-m {
     font-size: 2rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  &.subtitle_sm {
+    font-size: 1.3rem;
+  }
+
+  &.subtitle_ctr {
+    text-align: center;
   }
 }

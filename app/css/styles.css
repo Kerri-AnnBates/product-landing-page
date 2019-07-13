@@ -8,7 +8,7 @@ BASE
   padding: 0; }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Dosis', sans-serif;
   padding-top: 84px; }
 
@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #333; }
 
 p {
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  font-size: 1.125rem; }
 
 a {
   text-decoration: none; }
@@ -36,6 +37,14 @@ a {
     font-size: 3rem; }
   .headline__title.headline__title-m {
     font-size: 2rem; }
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem; }
+  .subtitle.subtitle_sm {
+    font-size: 1.3rem; }
+  .subtitle.subtitle_ctr {
+    text-align: center; }
 
 /*************************
 HEADER
@@ -71,7 +80,7 @@ nav {
 MAIN HERO SECTION
 **************************/
 .main-hero {
-  background: url("../images/field-desktop.jpg");
+  background: #081526 url("../images/field-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -93,6 +102,8 @@ GENERAL SECTIONS
 **************************/
 section {
   padding: 3rem 0; }
+  section.background_1 {
+    background: #f7f7f7; }
 
 .card-container .single-card {
   padding: 2rem; }
@@ -103,6 +114,43 @@ section {
   margin: 1.25rem auto;
   max-width: 500px;
   width: 100%; }
+
+.price-container {
+  margin-top: 6rem; }
+  .price-container .price-box {
+    background: #fff;
+    max-width: 300px;
+    min-height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 1rem 2rem;
+    position: relative; }
+  .price-container .price {
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    background: #EC900F;
+    border-radius: 50%;
+    padding: 4rem;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: -4rem;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .price-container .price-amt {
+    color: #fdf2e3;
+    font-size: 1.5rem;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute; }
+  .price-container .price-desc {
+    text-align: justify;
+    margin-top: 5rem; }
 
 /*************************
 FOOTER
