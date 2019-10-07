@@ -28,6 +28,10 @@ section {
 .price-container {
   margin-top: 6rem;
 
+  @media (min-width: 800px) {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .price-box {
     background: #fff;
     max-width: 300px;
@@ -37,6 +41,10 @@ section {
     margin-top: 6rem;
     padding: 1rem 2rem;
     position: relative;
+
+    @media (min-width: 800px) {
+      margin: 0 1rem;
+    }
   }
 
   .price {
