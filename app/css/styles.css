@@ -163,6 +163,24 @@ section {
     text-align: justify;
     margin-top: 5rem; }
 
+.form-container {
+  margin: 1rem 0; }
+  @media (min-width: 600px) {
+    .form-container {
+      text-align: center; } }
+  .form-container input[type="email"] {
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #CCDFED;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0; }
+  .form-container input[type="submit"] {
+    background: #224565;
+    color: #f7f7f7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px; }
+
 /*************************
 FOOTER
 **************************/

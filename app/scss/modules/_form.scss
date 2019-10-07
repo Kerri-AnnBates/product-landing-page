@@ -1,0 +1,23 @@
+.form-container {
+    margin: 1rem 0;
+
+    @media (min-width: 600px) {
+        text-align: center;
+    }
+
+    input[type="email"] {
+        max-width: 400px;
+        width: 100%;
+        border: 2px solid $secondaryBlue;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin: 0.5rem 0;
+    }
+
+    input[type="submit"] {
+        background: $headingsBlue;
+        color: $sectionBackground;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+}
